@@ -1,2 +1,3 @@
 # Portofolio-Website
-made it for my portofolio as a computer science student
+Made it for my portofolio as a computer science student
+Created in an hour-ish
