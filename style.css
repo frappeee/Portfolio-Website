@@ -77,7 +77,6 @@ section:nth-child(even) {
   background: var(--white-color);
   box-shadow: var(--box-shadow);
   z-index: 100;
-  /* font-family: 'Cedarville Cursive', cursive; */
 }
 
 .navbar .container {
@@ -85,14 +84,15 @@ section:nth-child(even) {
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
+  /* font-family: 'Cedarville Cursive', cursive; */
 }
 
-.navbar .logo {
+/* .navbar .logo {
   font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
   color: var(--dark-color);
-}
+} */
 
 .navbar ul {
   list-style: none;
@@ -128,6 +128,26 @@ section:nth-child(even) {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
+
+#home .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes it so that the image is a circle */
+    object-fit: cover;
+    border: 3px solid var(--dark-color);
+}
+
+/* .home-text {
+    max-width: 600px;
+} */
 
 .social-links a {
   margin: 0 0.5rem;
@@ -218,7 +238,7 @@ section:nth-child(even) {
   color: var(--primary-color);
 }
 
-/* About & Contact Sections */
+/* About & Contact Section */
 #about {
   text-align: center;
 }
@@ -259,7 +279,7 @@ section:nth-child(even) {
     opacity: 1;
 }
 
-/* --- [7] Footer --- */
+/*  Footer */
 footer {
   text-align: center;
   padding: 2rem 0;
@@ -267,7 +287,7 @@ footer {
   color: var(--white-color);
 }
 
-/* --- [8] Responsive Design --- */
+/* Responsive Design for mobile users*/
 @media (max-width: 768px) {
   .navbar .container {
     flex-direction: column;
