@@ -1,3 +1,2 @@
 # Portofolio-Website
-Made it for my portofolio as a computer science student
-created in an hour-ish
+Made it for my portofolio, made with responsive design in mind.
