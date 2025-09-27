@@ -1,2 +1,2 @@
 # Portofolio-Website
-Made it for my portofolio, made with responsive design in mind.
+Made it for my portfolio, made with responsive design in mind.
