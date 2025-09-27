@@ -6,11 +6,11 @@
     <title>Kevin Kan - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>    
     <nav class="navbar">
         <div class="container">
             <ul>
@@ -30,6 +30,33 @@
             <div class="social-links">
                 <a href="https://github.com/frappeee" target="_blank">GitHub</a> |
                 <a href="https://www.linkedin.com/in/kevin-khemanando-kan-0a3061309/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+        <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+
+            <div class="language-toggle">
+            <button id="btn-en" class="active">English</button>
+            <button id="btn-id">Bahasa Indonesia</button>
+            </div>
+
+            <div id="about-en">
+            <p>
+                I am currently a 5th semester student/2nd year student majoring in Computer Science at Bina Nusantara University(Binus University).
+                I enjoy creating programs as a hobby ever since high school and has a passion for it since then. 
+                I'm always up to date to new technology and is always interested in learning them as well as applying them in real world scenarios.
+            </p>
+            </div>
+
+            <div id="about-id" class="hidden">
+            <p>
+                Saat ini saya adalah mahasiswa semester 5/tahun kedua program studi Computer Science di Universitas Bina Nusantara. 
+                Saya menyukai membuat program sebagai hobi sejak SMA dan memiliki passion di bidang ini sejak saat itu. 
+                Saya selalu mengikuti perkembangan teknologi terbaru dan selalu tertarik untuk mempelajarinya serta menerapkannya dalam situasi nyata.
+            </p>
             </div>
         </div>
     </section>
@@ -57,6 +84,7 @@
                         <li>JavaFX</li>
                         <li>BioPython</li>
                         <li>MatPlotLib</li>
+                        <li>Flask</li>
                     </ul>
                 </div>
                 <!-- <div class="skill-category">
@@ -75,8 +103,8 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>a Simple Website</h3>
-                        <p>Made with HTML, CSS and JS for a </p>
+                        <h3>Asphalt Clone Website</h3>
+                        <p>Human and Computer Interaction Final Project</p>
                         <div class="tech-stack">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -88,10 +116,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="project-card">
                     <div class="project-content">
                         <h3>AI Quiz</h3>
-                        <p>An AI powered quiz app</p>
+                        <p>An AI generated quiz app</p>
                         <div class="tech-stack">
                             <span>Python</span>
                             <span>Flask</span>
@@ -105,18 +134,22 @@
                         </div>
                     </div>
                 </div>
+
+                    <div class="project-card">
+                    <div class="project-content">
+                        <h3>MuniMate</h3>
+                        <p>High Fidelity/HI-FI Gamified Financial App Prototype</p>
+                        <div class="tech-stack">
+                            <span>Axure RP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://lpaoqy.axshare.com" target="_blank">Website</a>
+                            <a href="https://github.com/frappeee/MuniMate" target="_blank">Source Code</a>
+                        </div>
+                    </div>
                 </div>
-        </div>
-    </section>
-    
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                I'm a 5th semester student currently majoring in computer science at Bina Nusantara University. 
-                I enjoy creating programs as a hobby ever since high school and has a passion for it since then. 
-                I'm always up to date to new technology and is always interested in learning them as well as applying them in real world scenarios.
-            </p>
+                
+            </div>
         </div>
     </section>
 
@@ -126,5 +159,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
